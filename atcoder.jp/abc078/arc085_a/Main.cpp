@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define INF32 2147483647 //2.147483647×10^{9}:32bit整数のinf
+#define INF64 9223372036854775807
+//const ll mod=1000000007;//10^9-7
+
+
+
+int main(){
+    ll N,M;
+    cin >> N >> M;
+    ll ans = ( 1900*M + 100*(N-M) ) * pow(2,M);
+    cout << ans << endl;
+}
